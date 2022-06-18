@@ -4,4 +4,3 @@ print(friends_names[1].title())
 print(friends_names[2].title())
 print(friends_names[-1].title())
 print(friends_names)
-
