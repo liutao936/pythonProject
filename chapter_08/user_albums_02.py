@@ -1,10 +1,8 @@
-def make_album(artist, title, tracks=0):
+def make_album(artist, title):
     album_dict = {
         'artist': artist.title(),
         'title': title.title(),
     }
-    if tracks:
-        album_dict['tracks'] = tracks
     return album_dict
 
 title_prompt = "\nWhat album are you thinking of? "
